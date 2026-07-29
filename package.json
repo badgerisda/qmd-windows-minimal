@@ -1,0 +1,29 @@
+{
+  "name": "qmd-windows-minimal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimalbeispiel für QMD 2.5.3 unter Windows 11 über die Node-SDK – ohne WSL.",
+  "license": "MIT",
+  "author": "Badger B",
+  "keywords": [
+    "qmd",
+    "windows",
+    "node",
+    "semantic-search",
+    "bm25",
+    "vector-search",
+    "local-ai"
+  ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "prepare": "node --check Indexieren.mjs && node --check Suchen.mjs",
+    "index": "node Indexieren.mjs",
+    "search": "node Suchen.mjs"
+  },
+  "dependencies": {
+    "@tobilu/qmd": "2.5.3"
+  }
+}

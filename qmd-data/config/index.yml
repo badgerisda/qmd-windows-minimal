@@ -1,0 +1,6 @@
+collections:
+  beispielwissen:
+    path: beispielwissen
+    pattern: "**/*.md"
+models:
+  embed: hf:ggml-org/embeddinggemma-300M-GGUF/embeddinggemma-300M-Q8_0.gguf

@@ -1,0 +1,17 @@
+node_modules/
+qmd-data/cache/
+qmd-data/npm-cache/
+qmd-data/**/*.sqlite
+qmd-data/**/*.sqlite-wal
+qmd-data/**/*.sqlite-shm
+qmd-data/**/models/
+*.log
+*.tmp
+*.zip
+.env
+.env.*
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
