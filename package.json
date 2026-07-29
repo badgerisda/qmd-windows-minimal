@@ -25,5 +25,13 @@
   },
   "dependencies": {
     "@tobilu/qmd": "2.5.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badgerisda/qmd-windows-minimal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/badgerisda/qmd-windows-minimal/issues"
+  },
+  "homepage": "https://github.com/badgerisda/qmd-windows-minimal#readme"
 }
